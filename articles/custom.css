@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Tiny5&display=swap");
+
+:root {
+	color-scheme: dark;
+	scrollbar-color: chartreuse hsl(0, 0%, 5%);
+}
+
+.pixelated,
+a,
+h1,
+h2,
+h3 {
+	font-family: "Tiny5", serif;
+}
+
+h1 {
+	color: crimson;
+}
+h2 {
+	color: slateblue;
+}
+h3 {
+	color: steelblue;
+}
+
+h1::before {
+	content: "> ";
+}
+h2::before {
+	content: ">> ";
+}
+h3::before {
+	content: ">>> ";
+}

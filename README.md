@@ -1,4 +1,18 @@
 # foundation
 
-- index.html is the main blog
-- Other files are within directories
+
+**Run Dev**
+
+```bash
+python3 compile.py
+```
+
+and run a live server at port 3000
+
+**Deploy Gh Pages**
+
+```bash
+python3 compile.py --base /foundation
+```
+
+Then commit changes
