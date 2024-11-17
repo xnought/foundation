@@ -50,8 +50,11 @@
 		b {
 			color: cadetblue;
 			background-color: hsla(182, 25%, 50%, 0.2);
-			padding: 3px;
+			padding: 0 3px;
 			border-radius: 3px;
+		}
+		p {
+			line-height: 1.5em;
 		}
 	</style>
 
@@ -71,5 +74,8 @@
 
 		<h3>Learning a Convolution</h3>
 		<p>We can convolve a small window filter to reduce an image to it's edges (for example).</p>
+		<b>Why the <b>hell</b> does that work?</b>
+		<p><b>Intuition -></b> Edges in one dimension if we have an object <b>00011111000</b> where the <b>1</b>s is the pattern we want to find.</p>
+		<p>I could create a 1D filter that sums together 3 items and slide/convolve that window.</p>
 	</body>
 </html>
