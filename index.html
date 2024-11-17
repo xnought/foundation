@@ -26,17 +26,36 @@
 		h1 {
 			color: crimson;
 		}
-
 		h2 {
-			color: deepskyblue;
+			color: slateblue;
+		}
+		h3 {
+			color: steelblue;
+		}
+
+		h1::before {
+			content: "> ";
+		}
+		h2::before {
+			content: ">> ";
+		}
+		h3::before {
+			content: ">>> ";
 		}
 
 		a {
 			color: chartreuse;
 		}
+
+		b {
+			color: cadetblue;
+			background-color: hsla(182, 25%, 50%, 0.2);
+			padding: 3px;
+			border-radius: 3px;
+		}
 	</style>
 
-	<body>
+	<p>
 		<h1>Foundation</h1>
 		<a href="https://github.com/xnought/foundation"
 			>https://github.com/xnought/foundation</a
@@ -47,48 +66,10 @@
 		</p>
 
 		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
-		<h2>Convolutions</h2>
+		<p>Like dragging a function over window of data.</p>
+		<p>In <b>2D</b>, it's like dragging a smaller window over a larger one.</p>
+
+		<h3>Learning a Convolution</h3>
+		<p>We can convolve a small window filter to reduce an image to it's edges (for example).</p>
 	</body>
 </html>
