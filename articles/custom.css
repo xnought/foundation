@@ -6,7 +6,7 @@
 
 	/* overrides */
 	--jp-layout-color0: black !important;
-	--jp-mirror-editor-string-color: cadetblue !important;
+	--jp-mirror-editor-string-color: crimson !important;
 	--jp-cell-editor-background: hsla(0, 0%, 3%) !important;
 	--jp-cell-editor-border-color: hsla(0, 0%, 10%) !important;
 	--jp-cell-prompt-not-active-font-color: hsla(0, 0%, 25%) !important;
