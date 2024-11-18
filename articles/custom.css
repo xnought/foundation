@@ -27,7 +27,7 @@
 }
 /* operators like <= */
 .highlight .o,
-.hightlight .ow {
+.highlight .ow {
 	color: slateblue !important;
 }
 /* reserved like def or import */
