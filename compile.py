@@ -60,7 +60,7 @@ def add_to_toc(path, BASE, filename="index.html"):
         names = [f.replace(".html", "") for f in files]
         combined_html = ""
         for l, n in zip(links, names):
-            combined_html += f'\n<li><a href="{l}">{n}</a></li>\n'
+            combined_html += f'\n<li><a href="{l}">{n}</a></li>'
         txt = inject(txt, '<ul id="table-of-contents">', combined_html)
 
         with open(filename, "w") as wf:
