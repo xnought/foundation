@@ -3,6 +3,36 @@
 :root {
 	color-scheme: dark;
 	scrollbar-color: chartreuse hsl(0, 0%, 5%);
+
+	/* overrides */
+	--jp-layout-color0: black !important;
+	--jp-mirror-editor-string-color: cadetblue !important;
+	--jp-cell-editor-background: hsla(0, 0%, 3%) !important;
+	--jp-cell-editor-border-color: hsla(0, 0%, 10%) !important;
+	--jp-cell-prompt-not-active-font-color: hsla(0, 0%, 25%) !important;
+	tab-size: 25px;
+}
+
+/* type */
+.highlight .nb {
+	color: orange !important;
+}
+/* function names */
+.highlight .nf {
+	/* font-weight: 600 !important; */
+}
+/* numbers */
+.highlight .mi {
+	color: chartreuse !important;
+}
+/* operators like <= */
+.highlight .o {
+	color: slateblue !important;
+}
+/* reserved like def or import */
+.highlight .kn,
+.highlight .k {
+	color: cadetblue !important;
 }
 
 .pixelated,
@@ -31,4 +61,21 @@ h2::before {
 }
 h3::before {
 	content: ">>> ";
+}
+
+span {
+	font-family: "Fira Code", menlo !important;
+}
+
+code {
+	font-family: "Fira Code", menlo !important;
+	color: cadetblue !important;
+	background-color: hsla(182, 25%, 50%, 0.2) !important;
+	padding: 0 3px !important;
+	border-radius: 3px !important;
+}
+
+a {
+	color: chartreuse !important;
+	text-decoration: underline !important;
 }
