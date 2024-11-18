@@ -48,10 +48,10 @@ h1 {
 	color: crimson;
 }
 h2 {
-	color: slateblue;
+	color: orange;
 }
 h3 {
-	color: steelblue;
+	color: chartreuse;
 }
 
 h1::before {
