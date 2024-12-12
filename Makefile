@@ -3,7 +3,7 @@ all: deploy
 deploy:
 	python3 compile.py --base /foundation
 	git add .
-	git commit -m "deploy"
+	uuidgen | xargs -Iid git commit -m "deploy id"
 	git push
 
 dev:
